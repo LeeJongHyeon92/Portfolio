@@ -54,6 +54,7 @@ body{
     align-items: center;
 }
 .navbar__Logo i {
+    color: yellow;
     font-size: var(--font-large);
     
 }
@@ -103,3 +104,55 @@ body{
     line-height: 200%;
     
 }
+/* Skill */
+
+.Skill{
+    width: 90%;
+    display: flex;
+    background-color: var(--color-dark-grey);
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Skill h1{
+    font-size: var(--font-large);
+}
+
+.Skill .Skill__icon {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Skill__icon i {
+    font-size: 150px;
+}
+
+.HTML i{
+    color: red;
+}
+.HTML span{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-medium);
+}
+
+.CSS i {
+    color: blue;
+}
+.CSS span{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-medium);
+}
+
+.JavaScript i {
+color: yellow;
+}
+.JavaScript span{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-medium);
+}
+
