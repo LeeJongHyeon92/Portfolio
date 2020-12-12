@@ -1,7 +1,8 @@
 :root{
     /* color */
-    --color-dark-grey: #25272B;
+    --color-background-grey: #25272B;
     --color-white: #EAFFFF;
+    --color-dark-grey: #202020;
 
     /* Font size */
     --font-large: 48px;
@@ -12,7 +13,7 @@
 
 }
 body{
-    background-color: var(--color-dark-grey);
+    background-color: var(--color-background-grey);
     color: var(--color-white);
 }
 /* Profile */
@@ -45,16 +46,22 @@ body{
 #navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    justify-items: center;
+    padding: 0 10%;
 
 }
-
+.navbar__Logo{
+    align-items: center;
+}
 .navbar__Logo i {
-    font-size: var(--font-large)
+    font-size: var(--font-large);
+    
 }
 
 .navbar__Logo span{
-    font-size: var(--font-medium)
+    font-size: var(--font-medium);
+    display: flex;
+    padding-top: 8px;
 }
 
 .navbar__menu{
@@ -63,8 +70,36 @@ body{
 
 .navbar__item{
     list-style: none;
-    padding: 0px 60px;
+    padding: 0px 20px;
     margin: 0 4px;
+    justify-items: center;
     font-size: var(--font-medium);
 
+}
+/* Show */
+
+#Show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.space{
+    padding-top: 50px;
+}
+
+.about{
+    width: 90%;
+    display: flex;
+    background-color: var(--color-dark-grey);
+    flex-direction: column;
+    text-align: center;
+}
+.about h1{
+    font-size: var(--font-large);
+}
+
+.about p{
+    font-size: var(--font-medium);
+    line-height: 200%;
+    
 }
