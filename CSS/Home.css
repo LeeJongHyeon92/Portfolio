@@ -175,7 +175,7 @@ body{
     background-color: var(--color-dark-grey);
     text-align: center;
     margin-left: 39%;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     border-radius: 3%;
     display: flex;
     flex-direction: column;
@@ -196,22 +196,17 @@ body{
 }
 
 
-.Html__bar{
+.Skill__item{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.Html__bar i{
+.Skill__item i{
     color: red;
     margin-left: 100px;
 }
-.Html span{
-    display: flex;
-    margin-left: 170px;
-    font-size: var(--font-medium);
-}
 
-.Skill__bar{
+.Skill__Bar{
 
     width: 50%;
     height: 50px;
@@ -221,21 +216,30 @@ body{
 
 }
 
-.skill_value{
-    width: 80%;
+.Skill_Value{
     height: 50px;
-    background-color: burlywood;
+    background-color: saddlebrown;
     display: flex;
     justify-content: flex-start;
     border-radius: 20px;
 }
+/* HTML */
+
+.Html span{
+    display: flex;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    font-size: var(--font-medium);
+}
+
 
 .CSS i {
     color: blue;
 }
 .CSS span{
     display: flex;
-    flex-direction: column;
+    margin-left: 180px;
+    margin-bottom: 20px;
     font-size: var(--font-medium);
 }
 
@@ -244,7 +248,8 @@ color: yellow;
 }
 .JavaScript span{
     display: flex;
-    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 20px;
     font-size: var(--font-medium);
 }
 
@@ -254,7 +259,8 @@ color: yellow;
 
 .React span{
     display: flex;
-    flex-direction: column;
+    margin-left: 170px;
+    margin-bottom: 20px;
     font-size: var(--font-medium);
 }
 
