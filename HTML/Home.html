@@ -10,14 +10,6 @@
 <body>
     <section id="Profile">
             <img src="../img/LeeJongHyeon.jpg" alt="프로필사진" class="Profile__avatar">
-            <nav id="navbar">
-                <ul class="navbar__menu">
-                    <li class="navbar__item">About</li>
-                    <li class="navbar__item">Skill</li>
-                    <li class="navbar__item">Project</li>
-                    <li class="navbar__item">Contact</li>
-                </ul> 
-            </nav>
         <h1>안녕하세요</h1>
         <h2>Front-End</h2>
         <h2>신입개발자 이종현입니다 </h2>
@@ -29,6 +21,22 @@
             <i class="fab fa-github"></i>
             <a href="https://github.com/LeeJongHyeon92">https://github.com/LeeJongHyeon92</a>
         </div>
+        <nav id="navbar">
+            <ul class="navbar__menu">
+                <div class="item__About">
+                    <li class="navbar__item">About</li>
+                </div>
+                <div class="item__Skill">
+                    <li class="navbar__item">Skill</li>
+                </div>
+                <div class="item__Project">
+                    <li class="navbar__item">Project</li>
+                </div>
+                <div class="item__Contact">
+                    <li class="navbar__item">Contact</li>
+                </div>
+            </ul> 
+        </nav>
     </section>
         <!-- About -->
         <div id="Show">
@@ -49,17 +57,29 @@
             <section class="Skill">
                 <h1>Skill</h1>
                 <div class="Skill__icon">
-                    <div class="HTML">
-                        <i class="fab fa-html5"></i>
+                    <div class="Html">
+                        <div class="Html__bar">
+                            <i class="fab fa-html5"></i>
+                            <div class="Skill__bar">
+                                <div class="skill_value">80%</div>
+                            </div>
+                        </div>
                         <span>HTML</span>
                     </div>
                     <div class="CSS">
                         <i class="fab fa-css3-alt"></i>
                         <span>CSS</span>
+                        <span>80%</span>
                     </div>
                     <div class="JavaScript">
                         <i class="fab fa-js"></i>
                         <span>JavaScript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="React">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                        <span>10%</span>
                     </div>
                 </div>
             </section>
