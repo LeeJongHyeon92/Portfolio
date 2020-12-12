@@ -1,0 +1,41 @@
+:root{
+    /* color */
+    --color-dark-grey: #25272B;
+    --color-white: #EAFFFF;
+
+    /* Font size */
+    --font-large: 48px;
+    --font-medium: 28px;
+    --font-regular: 18px;
+    --font-small: 16px;
+    --font-micro: 14px;
+
+}
+body{
+    background-color: var(--color-dark-grey);
+    color: var(--color-white);
+}
+
+#Profile {
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Profile img{
+    width: 250px; 
+    height: 250px;
+    margin: auto;
+    border-radius: 30%;
+}
+
+#Profile h1{
+    font-size: var(--font-large);
+    margin-bottom: -15px;
+}
+
+#Profile h2{
+    font-size: var(--font-medium);
+    
+}
