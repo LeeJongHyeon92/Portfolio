@@ -307,5 +307,6 @@ color: yellow;
 }
 
 .Project_item span{
+    margin-top: 6px;
     display: flex;
 }
