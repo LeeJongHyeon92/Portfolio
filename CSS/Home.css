@@ -163,7 +163,10 @@ body{
 
 }
 .about h1{
+    display: flex;
     font-size: var(--font-large);
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .about p{
@@ -187,7 +190,10 @@ body{
 }
 
 .Skill h1{
+    display: flex;
     font-size: var(--font-large);
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 .Skill .Skill__icon {
@@ -280,12 +286,26 @@ color: yellow;
 
 }
 
-/* Contact */
-
-.Contact{
-    width: 90%;
+.Project h1{
     display: flex;
-    background-color: var(--color-dark-grey);
-    flex-direction: column;
-    text-align: center;
+    font-size: var(--font-large);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.Project_item{
+
+}
+.Project_item span{
+    display: flex;
+    justify-content: center;
+}
+.Project_img img{
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.Project_item span{
+    display: flex;
 }
