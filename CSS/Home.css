@@ -12,12 +12,18 @@
     --font-micro: 14px;
 
 }
+
+html{
+    scroll-behavior:smooth;
+    font-family: 'Karla', sans-serif;
+}
 body{
     background-color: var(--color-background-grey);
     color: var(--color-white);
     margin: 0px;
     width: 100%;
     height: 100%;
+
 }
 /* Profile */
 
@@ -58,7 +64,7 @@ body{
 }
 
 .Profile__Text{
-    line-height: 250%;
+    line-height: 300%;
 }
 
 
@@ -73,6 +79,7 @@ body{
     margin-top: 20px;
     padding-right: 10px;
     color: skyblue;
+    font-size: 40px;
 }
 
 .email a{
@@ -91,13 +98,14 @@ body{
 .Git a{
     color: white;
     text-decoration: none;
+    font-size: var(--font-regular);
     
 }
 
 .Git i{
     margin-right: 10px;
-    font-size: var(--font-regular);
     color: purple;
+    font-size: 40px;
 }
 /* navbar */
 
@@ -165,7 +173,7 @@ body{
     border-radius: 3%;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 50px;
     
 
 }
@@ -283,6 +291,10 @@ body{
     margin-left: 170px;
 }
 
+.React .Skill__item{
+    margin-bottom: 100px;
+}
+
 /*  Mywork */
 
 #MyWork{
@@ -293,7 +305,7 @@ body{
     border-radius: 3%;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
@@ -311,6 +323,7 @@ body{
 .Mywork_item span{
     display: flex;
     justify-content: center;
+    font-size: var(--font-regular);
 }
 .Mywork_img img{
     width: 200px;
@@ -323,17 +336,10 @@ body{
     display: flex;
 }
 
-@media all and (min-width:320px){ 
+#Contact{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 20px;
 
-    /* 스타일 지정 부분*/
 }
-
-@media all and (min-width:768px){ 
-
-    /* 스타일 지정 부분*/
-}
-@media all and (min-width:1024px){ 
-
-    /* 스타일 지정 부분*/
-}
-
