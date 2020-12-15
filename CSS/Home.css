@@ -279,7 +279,7 @@ body{
 
 /*  Mywork */
 
-#Mywork{
+#MyWork{
     width: 95%;
     margin: auto;
     background-color: var(--color-dark-grey);
@@ -291,7 +291,7 @@ body{
     margin-bottom: 30px;
 }
 
-#Mywork h1{
+#MyWork h1{
     display: flex;
     font-size: var(--font-large);
     margin-left: 50px;
@@ -315,5 +315,19 @@ body{
 .Mywork_item span{
     margin-top: 20px;
     display: flex;
+}
+
+@media all and (min-width:320px){ 
+
+    /* 스타일 지정 부분*/
+}
+
+@media all and (min-width:768px){ 
+
+    /* 스타일 지정 부분*/
+}
+@media all and (min-width:1024px){ 
+
+    /* 스타일 지정 부분*/
 }
 
