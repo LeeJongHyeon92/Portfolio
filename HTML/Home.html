@@ -9,35 +9,39 @@
 </head>
 <body>
     <section id="Profile">
-            <img src="../img/LeeJongHyeon.jpg" alt="프로필사진" class="Profile__avatar">
-        <h1>안녕하세요</h1>
-        <h2>Front-End</h2>
-        <h2>신입 개발자 이종현입니다 </h2>
-        <div class="email">
-            <i class="fas fa-envelope-open-text"></i>
-            <a href="mailto:kedws124@gmail.com">kedws124@gmail.com</a>
-        </div>
-        <div class="Git">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/LeeJongHyeon92">https://github.com/LeeJongHyeon92</a>
-        </div>
+        <div class="Profile__box">
+                <img src="../img/LeeJongHyeon.jpg" alt="프로필사진" class="Profile__avatar">
+            <div class="Profile__Text">
+                <h1>안녕하세요</h1>
+                <h2>Front-End // Web Publisher</br>
+                신입 개발자 이종현입니다 </h2>
+                <div class="email">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <a href="mailto:kedws124@gmail.com">kedws124@gmail.com</a>
+                </div>
+                <div class="Git">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/LeeJongHyeon92">https://github.com/LeeJongHyeon92</a>
+                </div>
+            </div>
+    </div>
         <nav id="navbar">
             <ul class="navbar__menu">
                 <div class="item__About">
-                    <li class="navbar__item">About</li>
+                    <li class="navbar__item" data-link="#About">About</li>
                 </div>
                 <div class="item__Skill">
-                    <li class="navbar__item">Skill</li>
+                    <li class="navbar__item" data-link="#Skill">Skill</li>
                 </div>
                 <div class="item__Project">
-                    <li class="navbar__item">Project</li>
+                    <li class="navbar__item" data-link="#MyWork">MyWork</li>
                 </div>
             </ul> 
         </nav>
     </section>
         <!-- About -->
         <div id="Show">
-                <section class="about">
+                <section id="About">
                     <h1>About</h1>
                     <p>
                         프로그래머는 1분 생각하고 1일을 코딩에 소비한다.</br>
@@ -51,66 +55,75 @@
                     </p>
                 </section>
             <!-- Skill -->
-            <section class="Skill">
+            <section id="Skill">
                 <h1>Skill</h1>
                 <h2>아직 부족하지만 더욱 열심히 배우겠습니다.</h2>
                 <div class="Skill__icon">
                     <div class="Html">
                         <div class="Skill__item">
-                            <i class="fab fa-html5"></i>
+                            <div class="Html__Text">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML</span>
+                            </div>
                             <div class="Skill__Bar">
-                                <div class="Skill_Value" style="width: 80%;"></div>
+                                <div class="Skill_Value" style="width: 90%;"></div>
+                                <Span>90%</Span>
                             </div>
                         </div>
-                        <span>HTML</span>
                     </div>
                     <div class="CSS">
                         <div class="Skill__item">
-                            <i class="fab fa-css3-alt"></i>
+                            <div class="CSS_Text">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS</span>
+                            </div>
                             <div class="Skill__Bar">
-                                <div class="Skill_Value" style="width: 80%;"></div>
+                                <div class="Skill_Value" style="width: 90%;"></div>
+                                <Span>90%</Span>
                             </div>
                         </div>
-                        <span>CSS</span>
                     </div>
                     <div class="JavaScript">
                         <div class="Skill__item">
-                            <i class="fab fa-js"></i>
+                            <div class="JavaScript__Text">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
                             <div class="Skill__Bar">
                                 <div class="Skill_Value" style="width: 50%"></div>
+                                <span>50%</span>
                             </div>
                         </div>
-                        <span>JavaScript</span>
                     </div>
                     <div class="React">
                         <div class="Skill__item">
-                            <i class="fab fa-react"></i>
-                            <div class="Skill__Bar">
+                            <div class="React__Text">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                                <div class="Skill__Bar">
                                 <div class="Skill_Value" style="width: 5%;"></div>
+                                <span>5%</span>
                             </div>
                         </div>
-                        <span>React</span>
                     </div>
                 </div>
             </section>
             <!-- Project -->
-            <div class="space"></div>
-            <section class="Project"">
-                <h1>Project</h1>
-                <div class="Project_item">
-                    <div class="Project_img">
-                        <a href="https://petland.jjagu.com/"><img src="../img/Pro1.jpg
+            <section id="Mywork"">
+                <h1>Mywork</h1>
+                <div class="Mywork_item">
+                    <div class="Mywork_img">
+                        <a href="https://petland.jjagu.com/"><img src="../img/Pro1.JPG
                             " alt="홈페이지"></a>
-                        <img src="../img/Pro2.jpg" alt="소개페이지">
+                        <img src="../img/Pro2.JPG" alt="소개페이지">
                         <span>협업 프로젝트</br> 
                             펫시터 소개사이트</br>
                             주 사용 기술: HTML/CSS/JS 
                         </span>
                     </div>
-
                 </div>
             </section>
         </div>
-    
 </body>
 </html>
