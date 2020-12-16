@@ -1,0 +1,132 @@
+:root{
+    /* color */
+    --color-background-grey: #25272B;
+    --color-white: #EAFFFF;
+    --color-dark-grey: #202020;
+
+    /* Font size */
+    --font-large: 48px;
+    --font-medium: 30px;
+    --font-regular: 22px;
+    --font-small: 16px;
+    --font-micro: 14px;
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+
+
+                
+    #Profile img{
+        width: 250px; 
+        height: 250px;
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+            
+    #Profile h1{
+        font-size: var(--font-medium);
+        width: 300px;
+    }
+    #Profile h2{
+        font-size: var(--font-regular);
+        width: 300px;
+    }
+    
+    .email{
+        display: flex;
+        margin-left: 60px;
+        }
+    .email i{
+        margin-top: 20px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .email a {
+        font-size: var(--font-small)
+    }
+        
+    .Git{
+        display: flex;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+    .Git a{
+        font-size: var(--font-small); 
+    }
+        
+    .Git i{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+        
+    #navbar li{
+        font-size: var(--font-regular)
+    }
+    
+    .navbar__item{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+        
+    #About, #Skill, #MyWork{
+        width: 720px;
+        margin: 0px 22px;
+    }
+        
+    #About h1, #Skill h1, #MyWork h1{
+        font-size: var(--font-medium);
+        margin-top: 20px;
+    }
+    
+    #About p, #Skill h2, #MyWork span{
+        font-size: var(--font-regular)
+    }
+    
+    #Skill, #MyWork, #Contact{
+        margin-top: 20px;
+    }
+    
+    .Skill__Bar{
+        
+        width: 250px;
+        height: 40px;
+        margin-right: 30px;
+        border-radius: 20px;
+        
+    }
+        
+    .Skill_Value{
+        height: 40px;
+    }
+        
+    .Html span, .CSS span, .JavaScript span, .React span{
+        font-size: var(--font-small);
+    }
+        
+    .Html__Text i, .CSS__Text i, .JavaScript__Text i, .React__Text i{
+        font-size: 80px;
+        }
+        
+    .Html__Text, .CSS__Text, .JavaScript__Text, .React__Text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        }
+        
+    .React .Skill__item{
+        margin-bottom: 50px;
+    }
+        
+    .Mywork_img img{
+        width: 150px;
+        height: 150px;
+    }
+        
+        #Contact{
+        font-size: 40px;
+    }
+
+}
