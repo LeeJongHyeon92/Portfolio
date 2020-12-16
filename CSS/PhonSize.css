@@ -1,6 +1,5 @@
 /* Phone */
 @media screen and (min-width: 300px) and (max-width:480px){
-
     .Profile__box{
         display: flex;
         flex-direction: column;
@@ -56,6 +55,10 @@
     
     #navbar li{
         font-size: var(--font-regular)
+    }
+    .navbar__item{
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
     
     #About, #Skill, #MyWork{
