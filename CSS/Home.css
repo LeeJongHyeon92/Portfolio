@@ -257,7 +257,7 @@ body{
     font-size: var(--font-medium);
 }
 
-.CSS_Text{
+.CSS__Text{
     display: flex;
     flex-direction: column;
     margin-left: 170px;
@@ -368,83 +368,5 @@ body{
     padding: 0px 10px;
     border-radius: 5px;
 }
-
-
-/* Phone */
-@media screen and (min-width: 481px) and (max-width:767px){
-
-    #Profile img{
-        display: flex;
-        text-align: center;
-        margin-left: 109px
-    }
-    .Profile__box{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Profile__Text{
-        display: flex;
-        flex-direction: column;
-        width: 481px;
-    }
-    #navbar{
-        margin-bottom: -3em;
-    }
-    #About, #Skill, #MyWork{
-        margin: auto;
-        width: 439px;
-        margin: 0px 19px;
-        margin-bottom: 20px;
-    }
-
-    Footer{
-        display: flex;
-        width: 481px;
-        justify-content: center;
-        margin-top: 30px;
-        
-    }
-}
-/* Ipad */
-@media screen and (min-width: 1025px) and (max-width:1280){
-
-    #Profile img{
-        display: flex;
-        text-align: center;
-        margin-left: 109px
-    }
-    .Profile__box{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .Profile__Text{
-        display: flex;
-        flex-direction: column;
-        width: 1025px;
-    }
-    #navbar{
-        margin-bottom: -3em;
-    }
-    #About, #Skill, #MyWork{
-        margin: auto;
-        width: 983px;
-        margin: 0px 19px;
-        margin-bottom: 20px;
-    }
-
-    Footer{
-        display: flex;
-        width: 1025px;
-        justify-content: center;
-        margin-top: 30px;
-        
-    }
-}
-
-/* desk top */
-
-
 
 
