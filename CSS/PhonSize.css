@@ -14,7 +14,7 @@
 }
 
 /* Phone Size */
-@media screen and (min-width: 300px) and (max-width:767px){
+@media all and (min-width: 300px)and (max-width: 767px){
 
 .Profile__box{
     display: flex;
