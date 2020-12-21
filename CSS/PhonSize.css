@@ -106,15 +106,15 @@
     height: 30px;
 }
     
-.Html span, .CSS span, .JavaScript span, .React span{
+.Html span, .CSS span, .JavaScript span {
     font-size: var(--font-micro)    
 }
     
-.Html__Text i, .CSS__Text i, .JavaScript__Text i, .React__Text i{
+.Html__Text i, .CSS__Text i, .JavaScript__Text i {
     font-size: 50px;
     }
     
-.Html__Text, .CSS__Text, .JavaScript__Text, .React__Text{
+.Html__Text, .CSS__Text, .JavaScript__Text {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
