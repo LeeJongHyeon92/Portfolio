@@ -172,8 +172,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    padding-bottom: 20px;
-
+    
 
 }
 
@@ -285,6 +284,34 @@ body{
     flex-direction: column;
     margin-left: 170px;
     text-align: center;
+}
+/* React */
+
+.React{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.React i{
+    color: skyblue;
+    font-size: 100px;
+    width: 128px;
+    margin: auto;
+}
+
+.React span{
+    font-size: var(--font-medium);
+}
+
+.React__Text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.React .Skill__item{
+    margin-bottom: 100px;
 }
 
 /*  Mywork */
